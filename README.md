@@ -1,5 +1,9 @@
 # SliceCSS
-SliceCSS (v1.0.0) This is an opensource css framework build off of fundimentals started by Bootstrap, Materialize and W3CSS. The basis for this new framework is to create a more granular RWD grid based on a 16 grid system and utilizing only CSS and Javascript.
+SliceCSS
+(v1.0.0)
+This is an open-source css framework build off of fundamentals started by Bootstrap, Materialize and W3CSS.
+The basis for this new framework is to create a more granular RWD grid based on a 16 grid system and utilizing only CSS and Javascript.
+
 
 ##### INSTALATION #####
 
@@ -14,7 +18,7 @@ You should then be able to use all the tag and class functionality as described 
 
 Some items may utilize javascript depending on how you want to deploy the element.
 
-To use SliceCSS js, you can either place the js code dirrectly into your html document or point to the slice.js file.
+To use SliceCSS js, you can either place the js code directly into your html document or point to the slice.js file.
 
 ``` JS
 <style type="text/css">
@@ -40,7 +44,7 @@ This is a very rough start to this framework. As it is built out better document
 1: Initialization
 2: Type-Face
 
-//// forthcomming documentation ////
+//// forthcoming documentation ////
 3: Height/Width/Justification
 4: RWD Grid
 5: Colors
@@ -84,7 +88,7 @@ cicleShadow
 
 If you are interested contributing to the project you can fork the project from;
 https://github.com/jbenammi/SliceCSS.git. 
-Consideration will be given to all contributions if they are CSS/JS dependant only. Any contributions with JQuery or other library dependancies will not be considered for this project as it runs counter to the project reasoning.
+Consideration will be given to all contributions if they are CSS/JS dependent only. Any contributions with JQuery or other library dependencies will not be considered for this project as it runs counter to the project reasoning.
 
 ##### License #####
 
