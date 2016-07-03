@@ -1,0 +1,11 @@
+{
+  "name": "slicecss",
+  "version": "1.0.0",
+  "description": "SliceCSS is a css framework utilizing concepts started with other RWD frameworks such as Bootstrap, materialize and W3CSS who have paved the way for other framewors. Like W3CSS, SliceCSS depends mainly on CSS for it's core functionality with vanilla javascript used for some prefered functionality. The belief is that this will allow the SliceCSS framwork to be used on multi platforms without additional dependencies such as JQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Ben-Ammi <jbenammi@gmail.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,818 @@
+/* Initialization */
+
+* {
+	padding: 0px;
+	margin: 0%;
+	box-sizing: border-box;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+/* Type-Face */
+
+@font-face {
+    font-family: 'cicleFina';
+    src: url('../font/cicle_fina_macroman/Cicle_Fina-webfont.eot');
+    src: url('../font/cicle_fina_macroman/Cicle_Fina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/cicle_fina_macroman/Cicle_Fina-webfont.woff') format('woff'),
+         url('../font/cicle_fina_macroman/Cicle_Fina-webfont.ttf') format('truetype'),
+         url('../font/cicle_fina_macroman/Cicle_Fina-webfont.svg#ciclefina') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cicleGordita';
+    src: url('../font/cicle_gordita_macroman/Cicle_Gordita-webfont.eot');
+    src: url('../font/cicle_gordita_macroman/Cicle_Gordita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/cicle_gordita_macroman/Cicle_Gordita-webfont.woff') format('woff'),
+         url('../font/cicle_gordita_macroman/Cicle_Gordita-webfont.ttf') format('truetype'),
+         url('../font/cicle_gordita_macroman/Cicle_Gordita-webfont.svg#ciclefina') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cicleShadow';
+    src: url('../font/cicle_shadow_macroman/Cicle_Shadow-webfont.eot');
+    src: url('../font/cicle_shadow_macroman/Cicle_Shadow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/cicle_shadow_macroman/Cicle_Shadow-webfont.woff') format('woff'),
+         url('../font/cicle_shadow_macroman/Cicle_Shadow-webfont.ttf') format('truetype'),
+         url('../font/cicle_shadow_macroman/Cicle_Shadow-webfont.svg#cicleshadow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.bold-text {
+	font-family: cicleGordita;
+}
+.shadow-text {
+	font-family: cicleShadow;
+}
+html, body{
+	font-family: cicleFina, sans-serif;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+p{
+	font-size: 1rem;
+	margin: 1% 0;
+}
+h1{
+	font-size: 2.5rem;
+	font-family: cicleGordita;	
+}
+h2{
+	font-size: 1.8rem;
+	font-family: cicleGordita;
+}
+h3{
+	font-size: 1.5rem;
+	font-family: cicleGordita;
+}
+h4{
+	font-size: 1.33rem;
+	font-family: cicleGordita;
+}
+h5{
+	font-size: 1.2rem;
+	font-family: cicleGordita;
+}
+h6{
+	font-size: 1rem;
+	font-family: cicleGordita;
+}
+
+/* Height and Width */
+
+.scroll {
+	overflow-y: auto;
+}
+div, nav {
+	&.h25 {
+		height: 25px;}	
+	&.h50 {
+		height: 50px;}
+	&.h75 {
+		height: 75px;}
+	&.h100 {
+		height: 100px;}
+	&.h150 {
+		height: 150px;}
+}
+
+
+/* Justification */
+
+.right {
+	float: right;
+}
+.center-text {
+	text-align: center;
+}
+.right-text {
+	text-align: right;
+}
+
+.space-top- {
+	&10 { margin-top: 10px !important;}
+	&20 { margin-top: 20px !important;}
+}
+
+.pad- {
+	&5 {padding: 5px !important;}
+	&10 {padding: 10px !important;}
+	&20 {padding: 20px !important;}
+}
+
+/* Grid */
+
+.row::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+div	{
+	box-sizing: border-box;
+}
+@media only screen and (max-width:420px){
+	.row {
+		margin: 0 auto 10px auto;
+		.col {
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+			&.s1 {
+				width: (100% / 16);}
+			&.s2 {
+				width: (100% / 16 *2);}	
+			&.s3 {
+				width: (100% / 16 *3);}
+			&.s4 {
+				width: (100% / 16 *4);}
+			&.s5 {
+				width: (100% / 16 *5);}
+			&.s6 {
+				width: (100% / 16 *6);}
+			&.s7 {
+				width: (100% / 16 *7);}
+			&.s8 {
+				width: (100% / 16 *8);}
+			&.s9 {
+				width: (100% / 16 *9);}	
+			&.s10 {
+				width: (100% / 16 *10);}
+			&.s11 {
+				width: (100% / 16 *11);}
+			&.s12 {
+				width: (100% / 16 *12);}
+			&.s13 {
+				width: (100% / 16 *13);}
+			&.s14 {
+				width: (100% / 16 *14);}
+			&.s15 {
+				width: (100% / 16 *15);}
+			&.s16 {
+				width: (100% / 16 *16);}
+			&.offset-s1 {
+				width: (100% / 16);}
+			&.offset-s2 {
+				width: (100% / 16 *2);}	
+			&.offset-s3 {
+				width: (100% / 16 *3);}
+			&.offset-s4 {
+				width: (100% / 16 *4);}
+			&.offset-s5 {
+				width: (100% / 16 *5);}
+			&.offset-s6 {
+				width: (100% / 16 *6);}
+			&.offset-s7 {
+				width: (100% / 16 *7);}
+			&.offset-s8 {
+				width: (100% / 16 *8);}
+			&.offset-s9 {
+				width: (100% / 16 *9);}	
+			&.offset-s10 {
+				width: (100% / 16 *10);}
+			&.offset-s11 {
+				width: (100% / 16 *11);}
+			&.offset-s12 {
+				width: (100% / 16 *12);}
+			&.offset-s13 {
+				width: (100% / 16 *13);}
+			&.offset-s14 {
+				width: (100% / 16 *14);}
+			&.offset-s15 {
+				width: (100% / 16 *15);}
+			&.offset-s16 {
+				width: (100% / 16 *16);}
+		}
+	}
+}
+@media only screen and (min-width:421px) and (max-width:995px){
+	.row {
+		margin: 0 auto 10px auto;
+		.col {
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+			&.m1 {
+				width: (100% / 16);}
+			&.m2 {
+				width: (100% / 16 *2);}	
+			&.m3 {
+				width: (100% / 16 *3);}
+			&.m4 {
+				width: (100% / 16 *4);}
+			&.m5 {
+				width: (100% / 16 *5);}
+			&.m6 {
+				width: (100% / 16 *6);}
+			&.m7 {
+				width: (100% / 16 *7);}
+			&.m8 {
+				width: (100% / 16 *8);}
+			&.m9 {
+				width: (100% / 16 *9);}	
+			&.m10 {
+				width: (100% / 16 *10);}
+			&.m11 {
+				width: (100% / 16 *11);}
+			&.m12 {
+				width: (100% / 16 *12);}
+			&.m13 {
+				width: (100% / 16 *13);}
+			&.m14 {
+				width: (100% / 16 *14);}
+			&.m15 {
+				width: (100% / 16 *15);}
+			&.m16 {
+				width: (100% / 16 *16);}
+			&.offset-m1 {
+				width: (100% / 16);}
+			&.offset-m2 {
+				width: (100% / 16 *2);}	
+			&.offset-m3 {
+				width: (100% / 16 *3);}
+			&.offset-m4 {
+				width: (100% / 16 *4);}
+			&.offset-m5 {
+				width: (100% / 16 *5);}
+			&.offset-m6 {
+				width: (100% / 16 *6);}
+			&.offset-m7 {
+				width: (100% / 16 *7);}
+			&.offset-m8 {
+				width: (100% / 16 *8);}
+			&.offset-m9 {
+				width: (100% / 16 *9);}	
+			&.offset-m10 {
+				width: (100% / 16 *10);}
+			&.offset-m11 {
+				width: (100% / 16 *11);}
+			&.offset-m12 {
+				width: (100% / 16 *12);}
+			&.offset-m13 {
+				width: (100% / 16 *13);}
+			&.offset-m14 {
+				width: (100% / 16 *14);}
+			&.offset-m15 {
+				width: (100% / 16 *15);}
+			&.offset-m16 {
+				width: (100% / 16 *16);}							
+		}
+	}
+}
+@media only screen and (min-width:996px){
+	div {
+	&.container {
+		width: 90%;
+		margin: 0 auto;
+		height: 89%;}
+	}
+	.row {
+		margin: 0 auto 10px auto;
+		.col {
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+			&.l1 {
+				width: (100% / 16);}
+			&.l2 {
+				width: (100% / 16 *2);}	
+			&.l3 {
+				width: (100% / 16 *3);}
+			&.l4 {
+				width: (100% / 16 *4);}
+			&.l5 {
+				width: (100% / 16 *5);}
+			&.l6 {
+				width: (100% / 16 *6);}
+			&.l7 {
+				width: (100% / 16 *7);}
+			&.l8 {
+				width: (100% / 16 *8);}
+			&.l9 {
+				width: (100% / 16 *9);}	
+			&.l10 {
+				width: (100% / 16 *10);}
+			&.l11 {
+				width: (100% / 16 *11);}
+			&.l12 {
+				width: (100% / 16 *12);}
+			&.l13 {
+				width: (100% / 16 *13);}
+			&.l14 {
+				width: (100% / 16 *14);}
+			&.l15 {
+				width: (100% / 16 *15);}
+			&.l16 {
+				width: (100% / 16 *16);}
+			&.offset-l1 {
+				margin-left: (100% / 16);
+			}
+			&.offset-l2 {
+				margin-left: (100% / 16 *2);}	
+			&.offset-l3 {
+				margin-left: (100% / 16 *3);}
+			&.offset-l4 {
+				margin-left: (100% / 16 *4);}
+			&.offset-l5 {
+				margin-left: (100% / 16 *5);}
+			&.offset-l6 {
+				margin-left: (100% / 16 *6);}
+			&.offset-l7 {
+				margin-left: (100% / 16 *7);}
+			&.offset-l8 {
+				margin-left: (100% / 16 *8);}
+			&.offset-l9 {
+				margin-left: (100% / 16 *9);}	
+			&.offset-l10 {
+				margin-left: (100% / 16 *10);}
+			&.offset-l11 {
+				margin-left: (100% / 16 *11);}
+			&.offset-l12 {
+				margin-left: (100% / 16 *12);}
+			&.offset-l13 {
+				margin-left: (100% / 16 *13);}
+			&.offset-l14 {
+				margin-left: (100% / 16 *14);}
+			&.offset-l15 {
+				margin-left: (100% / 16 *15);}
+			&.offset-l16 {
+				margin-left: (100% / 16 *16);}			
+		}
+	}
+}
+/* Colors */
+
+.cherry {
+	background-color: #da0203;
+	&.lighter-1 {
+		background-color: #dd1b1c;}
+	&.lighter-2 {
+		background-color: #e13435;}
+	&.lighter-3 {
+		background-color: #e54d4e;}
+	&.lighter-4 {
+		background-color: #e86767;}
+	&.lighter-5 {
+		background-color: #ec8081;}
+	&.darker-1 {
+		background-color: #c40102;}
+	&.darker-2 {
+		background-color: #ae0102;}
+	&.darker-3 {
+		background-color: #980102;}
+	&.darker-4 {
+		background-color: #820101;}
+	&.darker-5 {
+		background-color: #6d0101;}
+}
+.cherry-text {
+	color: #da0203;
+	&.lighter-text-1 {
+		color: #dd1b1c;}
+	&.lighter-text-2 {
+		color: #e13435;}
+	&.lighter-text-3 {
+		color: #e54d4e;}
+	&.lighter-text-4 {
+		color: #e86767;}
+	&.lighter-text-5 {
+		color: #ec8081;}
+	&.darker-text-1 {
+		color: #c40102;}
+	&.darker-text-2 {
+		color: #ae0102;}
+	&.darker-text-3 {
+		color: #980102;}
+	&.darker-text-4 {
+		color: #820101;}
+	&.darker-text-5 {
+		color: #6d0101;}
+}
+.pumpkin {
+	background-color: #f88600;
+	&.lighter-1 {
+		background-color: #f89219;}
+	&.lighter-2 {
+		background-color: #f99e32;}
+	&.lighter-3 {
+		background-color: #faaa4c;}
+	&.lighter-4 {
+		background-color: #fab666;}
+	&.lighter-5 {
+		background-color: #fbc27f;}
+	&.darker-1 {
+		background-color: #df7800;}
+	&.darker-2 {
+		background-color: #c66b00;}
+	&.darker-3 {
+		background-color: #ad5d00;}
+	&.darker-4 {
+		background-color: #945000;}
+	&.darker-5 {
+		background-color: #7c4300;}
+}
+.pumpkin-text {
+	color: #f88600;
+	&.lighter-text-1 {
+		color: #f89219;}
+	&.lighter-text-2 {
+		color: #f99e32;}
+	&.lighter-text-3 {
+		color: #faaa4c;}
+	&.lighter-text-4 {
+		color: #fab666;}
+	&.lighter-text-5 {
+		color: #fbc27f;}
+	&.darker-text-1 {
+		color: #df7800;}
+	&.darker-text-2 {
+		color: #c66b00;}
+	&.darker-text-3 {
+		color: #ad5d00;}
+	&.darker-text-4 {
+		color: #945000;}
+	&.darker-text-5 {
+		color: #7c4300;}
+}
+.lemon {
+	background-color: #f9f031;
+	&.lighter-1 {
+		background-color: #f9f145;}
+	&.lighter-2 {
+		background-color: #faf35a;}
+	&.lighter-3 {
+		background-color: #faf46e;}
+	&.lighter-4 {
+		background-color: #fbf683;}
+	&.lighter-5 {
+		background-color: #fcf798;}
+	&.darker-1 {
+		background-color: #e0d82c;}
+	&.darker-2 {
+		background-color: #c7c027;}
+	&.darker-3 {
+		background-color: #aea822;}
+	&.darker-4 {
+		background-color: #95901d;}
+	&.darker-5 {
+		background-color: #7c7818;}
+}
+.lemon-text {
+	color: #f9f031;
+	&.lighter-text-1 {
+		color: #f9f145;}
+	&.lighter-text-2 {
+		color: #faf35a;}
+	&.lighter-text-3 {
+		color: #faf46e;}
+	&.lighter-text-4 {
+		color: #fbf683;}
+	&.lighter-text-5 {
+		color: #fcf798;}
+	&.darker-text-1 {
+		color: #e0d82c;}
+	&.darker-text-2 {
+		color: #c7c027;}
+	&.darker-text-3 {
+		color: #aea822;}
+	&.darker-text-4 {
+		color: #95901d;}
+	&.darker-text-5 {
+		color: #7c7818;}
+}
+.kiwi {
+	background-color: #709a01;
+	&.lighter-1 {
+		background-color: #7ea41a;}
+	&.lighter-2 {
+		background-color: #8cae33;}
+	&.lighter-3 {
+		background-color: #9ab84d;}
+	&.lighter-4 {
+		background-color: #a9c266;}
+	&.lighter-5 {
+		background-color: #b7cc80;}
+	&.darker-1 {
+		background-color: #648a00;}
+	&.darker-2 {
+		background-color: #597b00;}
+	&.darker-3 {
+		background-color: #4e6b00;}
+	&.darker-4 {
+		background-color: #435c00;}
+	&.darker-5 {
+		background-color: #384d00;}
+}
+.kiwi-text {
+	color: #709a01;
+	&.lighter-text-1 {
+		color: #7ea41a;}
+	&.lighter-text-2 {
+		color: #8cae33;}
+	&.lighter-text-3 {
+		color: #9ab84d;}
+	&.lighter-text-4 {
+		color: #a9c266;}
+	&.lighter-text-5 {
+		color: #b7cc80;}
+	&.darker-text-1 {
+		color: #648a00;}
+	&.darker-text-2 {
+		color: #597b00;}
+	&.darker-text-3 {
+		color: #4e6b00;}
+	&.darker-text-4 {
+		color: #435c00;}
+	&.darker-text-5 {
+		color: #384d00;}
+}
+.blueberry {
+	background-color: #235391;
+	&.lighter-1 {
+		background-color: #38649c;}
+	&.lighter-2 {
+		background-color: #4e75a7;}
+	&.lighter-3 {
+		background-color: #6586b2;}
+	&.lighter-4 {
+		background-color: #7b97bd;}
+	&.lighter-5 {
+		background-color: #91a9c8;}
+	&.darker-1 {
+		background-color: #1f4a82;}
+	&.darker-2 {
+		background-color: #1c4274;}
+	&.darker-3 {
+		background-color: #183a65;}
+	&.darker-4 {
+		background-color: #153157;}
+	&.darker-5 {
+		background-color: #112948;}
+}
+.blueberry-text {
+	color: #235391;
+	&.lighter-text-1 {
+		color: #38649c;}
+	&.lighter-text-2 {
+		color: #4e75a7;}
+	&.lighter-text-3 {
+		color: #6586b2;}
+	&.lighter-text-4 {
+		color: #7b97bd;}
+	&.lighter-text-5 {
+		color: #91a9c8;}
+	&.darker-text-1 {
+		color: #1f4a82;}
+	&.darker-text-2 {
+		color: #1c4274;}
+	&.darker-text-3 {
+		color: #183a65;}
+	&.darker-text-4 {
+		color: #153157;}
+	&.darker-text-5 {
+		color: #112948;}
+}
+.plum {
+	background-color: #76122c;
+	&.lighter-1 {
+		background-color: #832941;}
+	&.lighter-2 {
+		background-color: #914156;}
+	&.lighter-3 {
+		background-color: #9f596b;}
+	&.lighter-4 {
+		background-color: #ac7080;}
+	&.lighter-5 {
+		background-color: #ba8895;}
+	&.darker-1 {
+		background-color: #6a1027;}
+	&.darker-2 {
+		background-color: #5e0e23;}
+	&.darker-3 {
+		background-color: #520c1e;}
+	&.darker-4 {
+		background-color: #460a1a;}
+	&.darker-5 {
+		background-color: #3b0916;}
+}
+.plum-text {
+	color: #76122c;
+	&.lighter-text-1 {
+		color: #832941;}
+	&.lighter-text-2 {
+		color: #914156;}
+	&.lighter-text-3 {
+		color: #9f596b;}
+	&.lighter-text-4 {
+		color: #ac7080;}
+	&.lighter-text-5 {
+		color: #ba8895;}
+	&.darker-text-1 {
+		color: #6a1027;}
+	&.darker-text-2 {
+		color: #5e0e23;}
+	&.darker-text-3 {
+		color: #520c1e;}
+	&.darker-text-4 {
+		color: #460a1a;}
+	&.darker-text-5 {
+		color: #3b0916;}
+}
+.blade {
+	background-color: #808080;
+	&.lighter-1 {
+		background-color: #8c8c8c;}
+	&.lighter-2 {
+		background-color: #999999;}
+	&.lighter-3 {
+		background-color: #a6a6a6;}
+	&.lighter-4 {
+		background-color: #b2b2b2;}
+	&.lighter-5 {
+		background-color: #bfbfbf;}
+	&.darker-1 {
+		background-color: #737373;}
+	&.darker-2 {
+		background-color: #666666;}
+	&.darker-3 {
+		background-color: #595959;}
+	&.darker-4 {
+		background-color: #4c4c4c;}
+	&.darker-5 {
+		background-color: #404040;}
+}
+.blade-text {
+	color: #808080;
+	&.lighter-text-1 {
+		color: #8c8c8c;}
+	&.lighter-text-2 {
+		color: #999999;}
+	&.lighter-text-3 {
+		color: #a6a6a6;}
+	&.lighter-text-4 {
+		color: #b2b2b2;}
+	&.lighter-text-5 {
+		color: #bfbfbf;}
+	&.darker-text-1 {
+		color: #737373;}
+	&.darker-text-2 {
+		color: #666666;}
+	&.darker-text-3 {
+		color: #595959;}
+	&.darker-text-4 {
+		color: #4c4c4c;}
+	&.darker-text-5 {
+		color: #404040;}
+}
+.pepper {
+	background-color: #000000;}
+.pepper-text {
+	color: #000000;}
+.salt {
+	background-color: #FFFFFF;}
+.salt-text {
+	color: #FFFFFF;}
+
+/* ELEMENTS
+1: Navbar/Nav links
+2: Modal */
+
+nav	{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 60px;
+	box-shadow: 0px 3px 3px #999999;
+	overflow: hidden;
+}
+nav {
+	p {
+		margin: 0%;
+		&.logo {
+			display: inline-block;
+			padding: 11px 10px;
+			height: 20px;		
+			width: auto;
+			font-size: 2rem;
+		}	
+	}
+	ul{
+			background-color: none;
+			display: inline-block;
+		li{
+
+			display: inline-block;
+			padding-top: 20px;
+			padding-bottom: 2px;
+			padding-right: 10px;
+			padding-left: 10px;
+			height: 100%;
+			cursor: pointer;
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.2);}
+			&:active {
+				background-color: rgba(0, 0, 0, 0.3);}
+			}
+			&.disable {
+				display: none;}
+			a{
+				text-decoration: none;
+				color: white;
+				display: inline-block;
+				height: 100%;
+				padding-bottom: 20px;
+			}
+		}
+	}
+.modal-wrapper{
+	z-index:3;
+	display:none;
+	padding-top:100px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.4)
+}
+.modal{
+	margin:auto;
+	background-color:#fff;
+	position:relative ;
+	padding:20px;
+	outline:0;
+	border-radius: 5px;
+	width:600px;
+	overflow: auto;
+}
+	.modal-closebtn{
+		text-decoration:none;
+		float:right;
+		color:inherit;
+		border-radius: 5px;
+		border: none;
+		padding: 5px;
+	}
+
+.modal-closebtn:hover,.modal-closebtn:focus{
+	color:#FFFFFF;
+	background-color: #888888;
+	text-decoration:none;
+	cursor:pointer
+}
+
+/* 3: Button */
+
+button {
+	font-family: cicleGordita;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background: inherit, rgba(255, 255, 255, 0.0);
+	&:hover {
+		cursor: pointer;
+		box-shadow: 5px 5px 5px #777777;}
+	&:active {
+		background-color: rgba(0, 0, 0, 0.5);}
+}
+
+label {
+	font-family: cicleGordita;
+	font-size: 0.8rem;
+	color: rgba(0, 0, 0, 0.6);
+	display: block;
+	padding-top: 5px;
+}
+input {
+	padding: 5px;
+	width: 100%;
+	display: block;
+}
