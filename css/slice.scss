@@ -1,4 +1,5 @@
-/* Initialization */
+/* Initialization 
+This is used to do some normalization of the CSS code for cross browser use. This will be enhanced as future code is created.*/
 
 * {
 	padding: 0px;
@@ -9,6 +10,339 @@
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
 }
+
+/* Colors */
+
+.cherry {
+	background-color: #da0203 !important;
+	&.lighter-1 {
+		background-color: #dd1b1c !important;}
+	&.lighter-2 {
+		background-color: #e13435 !important;}
+	&.lighter-3 {
+		background-color: #e54d4e !important;}
+	&.lighter-4 {
+		background-color: #e86767 !important;}
+	&.lighter-5 {
+		background-color: #ec8081 !important;}
+	&.darker-1 {
+		background-color: #c40102 !important;}
+	&.darker-2 {
+		background-color: #ae0102 !important;}
+	&.darker-3 {
+		background-color: #980102 !important;}
+	&.darker-4 {
+		background-color: #820101 !important;}
+	&.darker-5 {
+		background-color: #6d0101 !important;}
+}
+.cherry-text {
+	color: #da0203;
+	&.lighter-text-1 {
+		color: #dd1b1c !important;}
+	&.lighter-text-2 {
+		color: #e13435 !important;}
+	&.lighter-text-3 {
+		color: #e54d4e !important;}
+	&.lighter-text-4 {
+		color: #e86767 !important;}
+	&.lighter-text-5 {
+		color: #ec8081 !important;}
+	&.darker-text-1 {
+		color: #c40102 !important;}
+	&.darker-text-2 {
+		color: #ae0102 !important;}
+	&.darker-text-3 {
+		color: #980102 !important;}
+	&.darker-text-4 {
+		color: #820101 !important;}
+	&.darker-text-5 {
+		color: #6d0101 !important;}
+}
+.pumpkin {
+	background-color: #f88600 !important;
+	&.lighter-1 {
+		background-color: #f89219 !important;}
+	&.lighter-2 {
+		background-color: #f99e32 !important;}
+	&.lighter-3 {
+		background-color: #faaa4c !important;}
+	&.lighter-4 {
+		background-color: #fab666 !important;}
+	&.lighter-5 {
+		background-color: #fbc27f !important;}
+	&.darker-1 {
+		background-color: #df7800 !important;}
+	&.darker-2 {
+		background-color: #c66b00 !important;}
+	&.darker-3 {
+		background-color: #ad5d00 !important;}
+	&.darker-4 {
+		background-color: #945000 !important;}
+	&.darker-5 {
+		background-color: #7c4300 !important;}
+}
+.pumpkin-text {
+	color: #f88600 !important;
+	&.lighter-text-1 {
+		color: #f89219 !important;}
+	&.lighter-text-2 {
+		color: #f99e32 !important;}
+	&.lighter-text-3 {
+		color: #faaa4c !important;}
+	&.lighter-text-4 {
+		color: #fab666 !important;}
+	&.lighter-text-5 {
+		color: #fbc27f !important;}
+	&.darker-text-1 {
+		color: #df7800 !important;}
+	&.darker-text-2 {
+		color: #c66b00 !important;}
+	&.darker-text-3 {
+		color: #ad5d00 !important;}
+	&.darker-text-4 {
+		color: #945000 !important;}
+	&.darker-text-5 {
+		color: #7c4300 !important;}
+}
+.lemon {
+	background-color: #f9f031 !important;
+	&.lighter-1 {
+		background-color: #f9f145 !important;}
+	&.lighter-2 {
+		background-color: #faf35a !important;}
+	&.lighter-3 {
+		background-color: #faf46e !important;}
+	&.lighter-4 {
+		background-color: #fbf683 !important;}
+	&.lighter-5 {
+		background-color: #fcf798 !important;}
+	&.darker-1 {
+		background-color: #e0d82c !important;}
+	&.darker-2 {
+		background-color: #c7c027 !important;}
+	&.darker-3 {
+		background-color: #aea822 !important;}
+	&.darker-4 {
+		background-color: #95901d !important;}
+	&.darker-5 {
+		background-color: #7c7818 !important;}
+}
+.lemon-text {
+	color: #f9f031 !important;
+	&.lighter-text-1 {
+		color: #f9f145 !important;}
+	&.lighter-text-2 {
+		color: #faf35a !important;}
+	&.lighter-text-3 {
+		color: #faf46e !important;}
+	&.lighter-text-4 {
+		color: #fbf683 !important;}
+	&.lighter-text-5 {
+		color: #fcf798 !important;}
+	&.darker-text-1 {
+		color: #e0d82c !important;}
+	&.darker-text-2 {
+		color: #c7c027 !important;}
+	&.darker-text-3 {
+		color: #aea822 !important;}
+	&.darker-text-4 {
+		color: #95901d !important;}
+	&.darker-text-5 {
+		color: #7c7818 !important;}
+}
+.kiwi {
+	background-color: #709a01 !important;
+	&.lighter-1 {
+		background-color: #7ea41a !important;}
+	&.lighter-2 {
+		background-color: #8cae33 !important;}
+	&.lighter-3 {
+		background-color: #9ab84d !important;}
+	&.lighter-4 {
+		background-color: #a9c266 !important;}
+	&.lighter-5 {
+		background-color: #b7cc80 !important;}
+	&.darker-1 {
+		background-color: #648a00 !important;}
+	&.darker-2 {
+		background-color: #597b00 !important;}
+	&.darker-3 {
+		background-color: #4e6b00 !important;}
+	&.darker-4 {
+		background-color: #435c00 !important;}
+	&.darker-5 {
+		background-color: #384d00 !important;}
+}
+.kiwi-text {
+	color: #709a01 !important;
+	&.lighter-text-1 {
+		color: #7ea41a !important;}
+	&.lighter-text-2 {
+		color: #8cae33 !important;}
+	&.lighter-text-3 {
+		color: #9ab84d !important;}
+	&.lighter-text-4 {
+		color: #a9c266 !important;}
+	&.lighter-text-5 {
+		color: #b7cc80 !important;}
+	&.darker-text-1 {
+		color: #648a00 !important;}
+	&.darker-text-2 {
+		color: #597b00 !important;}
+	&.darker-text-3 {
+		color: #4e6b00 !important;}
+	&.darker-text-4 {
+		color: #435c00 !important;}
+	&.darker-text-5 {
+		color: #384d00 !important;}
+}
+.blueberry {
+	background-color: #235391 !important;
+	&.lighter-1 {
+		background-color: #38649c !important;}
+	&.lighter-2 {
+		background-color: #4e75a7 !important;}
+	&.lighter-3 {
+		background-color: #6586b2 !important;}
+	&.lighter-4 {
+		background-color: #7b97bd !important;}
+	&.lighter-5 {
+		background-color: #91a9c8 !important;}
+	&.darker-1 {
+		background-color: #1f4a82 !important;}
+	&.darker-2 {
+		background-color: #1c4274 !important;}
+	&.darker-3 {
+		background-color: #183a65 !important;}
+	&.darker-4 {
+		background-color: #153157 !important;}
+	&.darker-5 {
+		background-color: #112948 !important;}
+}
+.blueberry-text {
+	color: #235391 !important;
+	&.lighter-text-1 {
+		color: #38649c !important;}
+	&.lighter-text-2 {
+		color: #4e75a7 !important;}
+	&.lighter-text-3 {
+		color: #6586b2 !important;}
+	&.lighter-text-4 {
+		color: #7b97bd !important;}
+	&.lighter-text-5 {
+		color: #91a9c8 !important;}
+	&.darker-text-1 {
+		color: #1f4a82 !important;}
+	&.darker-text-2 {
+		color: #1c4274 !important;}
+	&.darker-text-3 {
+		color: #183a65 !important;}
+	&.darker-text-4 {
+		color: #153157 !important;}
+	&.darker-text-5 {
+		color: #112948 !important;}
+}
+.plum {
+	background-color: #76122c !important;
+	&.lighter-1 {
+		background-color: #832941 !important;}
+	&.lighter-2 {
+		background-color: #914156 !important;}
+	&.lighter-3 {
+		background-color: #9f596b !important;}
+	&.lighter-4 {
+		background-color: #ac7080 !important;}
+	&.lighter-5 {
+		background-color: #ba8895 !important;}
+	&.darker-1 {
+		background-color: #6a1027 !important;}
+	&.darker-2 {
+		background-color: #5e0e23 !important;}
+	&.darker-3 {
+		background-color: #520c1e !important;}
+	&.darker-4 {
+		background-color: #460a1a !important;}
+	&.darker-5 {
+		background-color: #3b0916 !important;}
+}
+.plum-text {
+	color: #76122c !important;
+	&.lighter-text-1 {
+		color: #832941 !important;}
+	&.lighter-text-2 {
+		color: #914156 !important;}
+	&.lighter-text-3 {
+		color: #9f596b !important;}
+	&.lighter-text-4 {
+		color: #ac7080 !important;}
+	&.lighter-text-5 {
+		color: #ba8895 !important;}
+	&.darker-text-1 {
+		color: #6a1027 !important;}
+	&.darker-text-2 {
+		color: #5e0e23 !important;}
+	&.darker-text-3 {
+		color: #520c1e !important;}
+	&.darker-text-4 {
+		color: #460a1a !important;}
+	&.darker-text-5 {
+		color: #3b0916 !important;}
+}
+.blade {
+	background-color: #808080 !important;
+	&.lighter-1 {
+		background-color: #8c8c8c !important;}
+	&.lighter-2 {
+		background-color: #999999 !important;}
+	&.lighter-3 {
+		background-color: #a6a6a6 !important;}
+	&.lighter-4 {
+		background-color: #b2b2b2 !important;}
+	&.lighter-5 {
+		background-color: #bfbfbf !important;}
+	&.darker-1 {
+		background-color: #737373 !important;}
+	&.darker-2 {
+		background-color: #666666 !important;}
+	&.darker-3 {
+		background-color: #595959 !important;}
+	&.darker-4 {
+		background-color: #4c4c4c !important;}
+	&.darker-5 {
+		background-color: #404040 !important;}
+}
+.blade-text {
+	color: #808080 !important;
+	&.lighter-text-1 {
+		color: #8c8c8c !important;}
+	&.lighter-text-2 {
+		color: #999999 !important;}
+	&.lighter-text-3 {
+		color: #a6a6a6 !important;}
+	&.lighter-text-4 {
+		color: #b2b2b2 !important;}
+	&.lighter-text-5 {
+		color: #bfbfbf !important;}
+	&.darker-text-1 {
+		color: #737373 !important;}
+	&.darker-text-2 {
+		color: #666666 !important;}
+	&.darker-text-3 {
+		color: #595959 !important;}
+	&.darker-text-4 {
+		color: #4c4c4c !important;}
+	&.darker-text-5 {
+		color: #404040 !important;}
+}
+.pepper {
+	background-color: #000000 !important;}
+.pepper-text {
+	color: #000000 !important;}
+.salt {
+	background-color: #FFFFFF !important;}
+.salt-text {
+	color: #FFFFFF !important;}
 
 /* Type-Face */
 
@@ -91,17 +425,22 @@ h6{
 }
 div, nav {
 	&.h25 {
-		height: 25px;}	
+		height: 25px !important;}	
 	&.h50 {
-		height: 50px;}
+		height: 50px !important;}
 	&.h75 {
-		height: 75px;}
+		height: 75px !important;}
 	&.h100 {
-		height: 100px;}
+		height: 100px !important;}
+	&.h125 {
+		height: 125px !important;}
 	&.h150 {
-		height: 150px;}
+		height: 150px !important;}
+	&.h175 {
+		height: 175px !important;}
+	&.h200 {
+		height: 200px !important;}
 }
-
 
 /* Justification */
 
@@ -114,15 +453,16 @@ div, nav {
 .right-text {
 	text-align: right;
 }
-
 .space-top- {
+	&5 { margin-top: 5px !important;}
 	&10 { margin-top: 10px !important;}
+	&15 { margin-top: 15px !important;}
 	&20 { margin-top: 20px !important;}
 }
-
 .pad- {
 	&5 {padding: 5px !important;}
 	&10 {padding: 10px !important;}
+	&15 {padding: 15px !important;}
 	&20 {padding: 20px !important;}
 }
 
@@ -136,80 +476,88 @@ div, nav {
 div	{
 	box-sizing: border-box;
 }
-@media only screen and (max-width:420px){
-	.row {
-		margin: 0 auto 10px auto;
-		.col {
-			float: left;
-			padding: 10px;
-			box-sizing: border-box;
-			&.s1 {
-				width: (100% / 16);}
-			&.s2 {
-				width: (100% / 16 *2);}	
-			&.s3 {
-				width: (100% / 16 *3);}
-			&.s4 {
-				width: (100% / 16 *4);}
-			&.s5 {
-				width: (100% / 16 *5);}
-			&.s6 {
-				width: (100% / 16 *6);}
-			&.s7 {
-				width: (100% / 16 *7);}
-			&.s8 {
-				width: (100% / 16 *8);}
-			&.s9 {
-				width: (100% / 16 *9);}	
-			&.s10 {
-				width: (100% / 16 *10);}
-			&.s11 {
-				width: (100% / 16 *11);}
-			&.s12 {
-				width: (100% / 16 *12);}
-			&.s13 {
-				width: (100% / 16 *13);}
-			&.s14 {
-				width: (100% / 16 *14);}
-			&.s15 {
-				width: (100% / 16 *15);}
-			&.s16 {
-				width: (100% / 16 *16);}
-			&.offset-s1 {
-				width: (100% / 16);}
-			&.offset-s2 {
-				width: (100% / 16 *2);}	
-			&.offset-s3 {
-				width: (100% / 16 *3);}
-			&.offset-s4 {
-				width: (100% / 16 *4);}
-			&.offset-s5 {
-				width: (100% / 16 *5);}
-			&.offset-s6 {
-				width: (100% / 16 *6);}
-			&.offset-s7 {
-				width: (100% / 16 *7);}
-			&.offset-s8 {
-				width: (100% / 16 *8);}
-			&.offset-s9 {
-				width: (100% / 16 *9);}	
-			&.offset-s10 {
-				width: (100% / 16 *10);}
-			&.offset-s11 {
-				width: (100% / 16 *11);}
-			&.offset-s12 {
-				width: (100% / 16 *12);}
-			&.offset-s13 {
-				width: (100% / 16 *13);}
-			&.offset-s14 {
-				width: (100% / 16 *14);}
-			&.offset-s15 {
-				width: (100% / 16 *15);}
-			&.offset-s16 {
-				width: (100% / 16 *16);}
-		}
+// @media only screen and (max-width:420px){
+//}
+
+/* base grid settings are fore moble sizing. for additional screen sizes, utilize the M and L column settings */
+
+.container {
+		width: 90%;
+		margin: 0 auto;
+		height: 89%;}
+.row {
+	margin: 0 auto 10px auto;
+	.col {
+		float: left;
+		padding: 10px;
+		box-sizing: border-box;
+		&.s1 {
+			width: (100% / 16);}
+		&.s2 {
+			width: (100% / 16 *2);}	
+		&.s3 {
+			width: (100% / 16 *3);}
+		&.s4 {
+			width: (100% / 16 *4);}
+		&.s5 {
+			width: (100% / 16 *5);}
+		&.s6 {
+			width: (100% / 16 *6);}
+		&.s7 {
+			width: (100% / 16 *7);}
+		&.s8 {
+			width: (100% / 16 *8);}
+		&.s9 {
+			width: (100% / 16 *9);}	
+		&.s10 {
+			width: (100% / 16 *10);}
+		&.s11 {
+			width: (100% / 16 *11);}
+		&.s12 {
+			width: (100% / 16 *12);}
+		&.s13 {
+			width: (100% / 16 *13);}
+		&.s14 {
+			width: (100% / 16 *14);}
+		&.s15 {
+			width: (100% / 16 *15);}
+		&.s16 {
+			width: (100% / 16 *16);}
+		&.offset-s1 {
+			width: (100% / 16);}
+		&.offset-s2 {
+			width: (100% / 16 *2);}	
+		&.offset-s3 {
+			width: (100% / 16 *3);}
+		&.offset-s4 {
+			width: (100% / 16 *4);}
+		&.offset-s5 {
+			width: (100% / 16 *5);}
+		&.offset-s6 {
+			width: (100% / 16 *6);}
+		&.offset-s7 {
+			width: (100% / 16 *7);}
+		&.offset-s8 {
+			width: (100% / 16 *8);}
+		&.offset-s9 {
+			width: (100% / 16 *9);}	
+		&.offset-s10 {
+			width: (100% / 16 *10);}
+		&.offset-s11 {
+			width: (100% / 16 *11);}
+		&.offset-s12 {
+			width: (100% / 16 *12);}
+		&.offset-s13 {
+			width: (100% / 16 *13);}
+		&.offset-s14 {
+			width: (100% / 16 *14);}
+		&.offset-s15 {
+			width: (100% / 16 *15);}
+		&.offset-s16 {
+			width: (100% / 16 *16);}
 	}
 }
+
 @media only screen and (min-width:421px) and (max-width:995px){
 	.row {
 		margin: 0 auto 10px auto;
@@ -285,12 +633,6 @@ div	{
 	}
 }
 @media only screen and (min-width:996px){
-	div {
-	&.container {
-		width: 90%;
-		margin: 0 auto;
-		height: 89%;}
-	}
 	.row {
 		margin: 0 auto 10px auto;
 		.col {
@@ -365,338 +707,7 @@ div	{
 		}
 	}
 }
-/* Colors */
 
-.cherry {
-	background-color: #da0203;
-	&.lighter-1 {
-		background-color: #dd1b1c;}
-	&.lighter-2 {
-		background-color: #e13435;}
-	&.lighter-3 {
-		background-color: #e54d4e;}
-	&.lighter-4 {
-		background-color: #e86767;}
-	&.lighter-5 {
-		background-color: #ec8081;}
-	&.darker-1 {
-		background-color: #c40102;}
-	&.darker-2 {
-		background-color: #ae0102;}
-	&.darker-3 {
-		background-color: #980102;}
-	&.darker-4 {
-		background-color: #820101;}
-	&.darker-5 {
-		background-color: #6d0101;}
-}
-.cherry-text {
-	color: #da0203;
-	&.lighter-text-1 {
-		color: #dd1b1c;}
-	&.lighter-text-2 {
-		color: #e13435;}
-	&.lighter-text-3 {
-		color: #e54d4e;}
-	&.lighter-text-4 {
-		color: #e86767;}
-	&.lighter-text-5 {
-		color: #ec8081;}
-	&.darker-text-1 {
-		color: #c40102;}
-	&.darker-text-2 {
-		color: #ae0102;}
-	&.darker-text-3 {
-		color: #980102;}
-	&.darker-text-4 {
-		color: #820101;}
-	&.darker-text-5 {
-		color: #6d0101;}
-}
-.pumpkin {
-	background-color: #f88600;
-	&.lighter-1 {
-		background-color: #f89219;}
-	&.lighter-2 {
-		background-color: #f99e32;}
-	&.lighter-3 {
-		background-color: #faaa4c;}
-	&.lighter-4 {
-		background-color: #fab666;}
-	&.lighter-5 {
-		background-color: #fbc27f;}
-	&.darker-1 {
-		background-color: #df7800;}
-	&.darker-2 {
-		background-color: #c66b00;}
-	&.darker-3 {
-		background-color: #ad5d00;}
-	&.darker-4 {
-		background-color: #945000;}
-	&.darker-5 {
-		background-color: #7c4300;}
-}
-.pumpkin-text {
-	color: #f88600;
-	&.lighter-text-1 {
-		color: #f89219;}
-	&.lighter-text-2 {
-		color: #f99e32;}
-	&.lighter-text-3 {
-		color: #faaa4c;}
-	&.lighter-text-4 {
-		color: #fab666;}
-	&.lighter-text-5 {
-		color: #fbc27f;}
-	&.darker-text-1 {
-		color: #df7800;}
-	&.darker-text-2 {
-		color: #c66b00;}
-	&.darker-text-3 {
-		color: #ad5d00;}
-	&.darker-text-4 {
-		color: #945000;}
-	&.darker-text-5 {
-		color: #7c4300;}
-}
-.lemon {
-	background-color: #f9f031;
-	&.lighter-1 {
-		background-color: #f9f145;}
-	&.lighter-2 {
-		background-color: #faf35a;}
-	&.lighter-3 {
-		background-color: #faf46e;}
-	&.lighter-4 {
-		background-color: #fbf683;}
-	&.lighter-5 {
-		background-color: #fcf798;}
-	&.darker-1 {
-		background-color: #e0d82c;}
-	&.darker-2 {
-		background-color: #c7c027;}
-	&.darker-3 {
-		background-color: #aea822;}
-	&.darker-4 {
-		background-color: #95901d;}
-	&.darker-5 {
-		background-color: #7c7818;}
-}
-.lemon-text {
-	color: #f9f031;
-	&.lighter-text-1 {
-		color: #f9f145;}
-	&.lighter-text-2 {
-		color: #faf35a;}
-	&.lighter-text-3 {
-		color: #faf46e;}
-	&.lighter-text-4 {
-		color: #fbf683;}
-	&.lighter-text-5 {
-		color: #fcf798;}
-	&.darker-text-1 {
-		color: #e0d82c;}
-	&.darker-text-2 {
-		color: #c7c027;}
-	&.darker-text-3 {
-		color: #aea822;}
-	&.darker-text-4 {
-		color: #95901d;}
-	&.darker-text-5 {
-		color: #7c7818;}
-}
-.kiwi {
-	background-color: #709a01;
-	&.lighter-1 {
-		background-color: #7ea41a;}
-	&.lighter-2 {
-		background-color: #8cae33;}
-	&.lighter-3 {
-		background-color: #9ab84d;}
-	&.lighter-4 {
-		background-color: #a9c266;}
-	&.lighter-5 {
-		background-color: #b7cc80;}
-	&.darker-1 {
-		background-color: #648a00;}
-	&.darker-2 {
-		background-color: #597b00;}
-	&.darker-3 {
-		background-color: #4e6b00;}
-	&.darker-4 {
-		background-color: #435c00;}
-	&.darker-5 {
-		background-color: #384d00;}
-}
-.kiwi-text {
-	color: #709a01;
-	&.lighter-text-1 {
-		color: #7ea41a;}
-	&.lighter-text-2 {
-		color: #8cae33;}
-	&.lighter-text-3 {
-		color: #9ab84d;}
-	&.lighter-text-4 {
-		color: #a9c266;}
-	&.lighter-text-5 {
-		color: #b7cc80;}
-	&.darker-text-1 {
-		color: #648a00;}
-	&.darker-text-2 {
-		color: #597b00;}
-	&.darker-text-3 {
-		color: #4e6b00;}
-	&.darker-text-4 {
-		color: #435c00;}
-	&.darker-text-5 {
-		color: #384d00;}
-}
-.blueberry {
-	background-color: #235391;
-	&.lighter-1 {
-		background-color: #38649c;}
-	&.lighter-2 {
-		background-color: #4e75a7;}
-	&.lighter-3 {
-		background-color: #6586b2;}
-	&.lighter-4 {
-		background-color: #7b97bd;}
-	&.lighter-5 {
-		background-color: #91a9c8;}
-	&.darker-1 {
-		background-color: #1f4a82;}
-	&.darker-2 {
-		background-color: #1c4274;}
-	&.darker-3 {
-		background-color: #183a65;}
-	&.darker-4 {
-		background-color: #153157;}
-	&.darker-5 {
-		background-color: #112948;}
-}
-.blueberry-text {
-	color: #235391;
-	&.lighter-text-1 {
-		color: #38649c;}
-	&.lighter-text-2 {
-		color: #4e75a7;}
-	&.lighter-text-3 {
-		color: #6586b2;}
-	&.lighter-text-4 {
-		color: #7b97bd;}
-	&.lighter-text-5 {
-		color: #91a9c8;}
-	&.darker-text-1 {
-		color: #1f4a82;}
-	&.darker-text-2 {
-		color: #1c4274;}
-	&.darker-text-3 {
-		color: #183a65;}
-	&.darker-text-4 {
-		color: #153157;}
-	&.darker-text-5 {
-		color: #112948;}
-}
-.plum {
-	background-color: #76122c;
-	&.lighter-1 {
-		background-color: #832941;}
-	&.lighter-2 {
-		background-color: #914156;}
-	&.lighter-3 {
-		background-color: #9f596b;}
-	&.lighter-4 {
-		background-color: #ac7080;}
-	&.lighter-5 {
-		background-color: #ba8895;}
-	&.darker-1 {
-		background-color: #6a1027;}
-	&.darker-2 {
-		background-color: #5e0e23;}
-	&.darker-3 {
-		background-color: #520c1e;}
-	&.darker-4 {
-		background-color: #460a1a;}
-	&.darker-5 {
-		background-color: #3b0916;}
-}
-.plum-text {
-	color: #76122c;
-	&.lighter-text-1 {
-		color: #832941;}
-	&.lighter-text-2 {
-		color: #914156;}
-	&.lighter-text-3 {
-		color: #9f596b;}
-	&.lighter-text-4 {
-		color: #ac7080;}
-	&.lighter-text-5 {
-		color: #ba8895;}
-	&.darker-text-1 {
-		color: #6a1027;}
-	&.darker-text-2 {
-		color: #5e0e23;}
-	&.darker-text-3 {
-		color: #520c1e;}
-	&.darker-text-4 {
-		color: #460a1a;}
-	&.darker-text-5 {
-		color: #3b0916;}
-}
-.blade {
-	background-color: #808080;
-	&.lighter-1 {
-		background-color: #8c8c8c;}
-	&.lighter-2 {
-		background-color: #999999;}
-	&.lighter-3 {
-		background-color: #a6a6a6;}
-	&.lighter-4 {
-		background-color: #b2b2b2;}
-	&.lighter-5 {
-		background-color: #bfbfbf;}
-	&.darker-1 {
-		background-color: #737373;}
-	&.darker-2 {
-		background-color: #666666;}
-	&.darker-3 {
-		background-color: #595959;}
-	&.darker-4 {
-		background-color: #4c4c4c;}
-	&.darker-5 {
-		background-color: #404040;}
-}
-.blade-text {
-	color: #808080;
-	&.lighter-text-1 {
-		color: #8c8c8c;}
-	&.lighter-text-2 {
-		color: #999999;}
-	&.lighter-text-3 {
-		color: #a6a6a6;}
-	&.lighter-text-4 {
-		color: #b2b2b2;}
-	&.lighter-text-5 {
-		color: #bfbfbf;}
-	&.darker-text-1 {
-		color: #737373;}
-	&.darker-text-2 {
-		color: #666666;}
-	&.darker-text-3 {
-		color: #595959;}
-	&.darker-text-4 {
-		color: #4c4c4c;}
-	&.darker-text-5 {
-		color: #404040;}
-}
-.pepper {
-	background-color: #000000;}
-.pepper-text {
-	color: #000000;}
-.salt {
-	background-color: #FFFFFF;}
-.salt-text {
-	color: #FFFFFF;}
 
 /* ELEMENTS
 1: Navbar/Nav links
